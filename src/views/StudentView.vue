@@ -1,6 +1,11 @@
 <template>
   <div>
-    <h1>{{ student }}</h1>
+    <h1>Estudiantes del 83</h1>
+    <div>
+      <div v-for="(student, index) in student.students" :key="index">
+        {{ student.name }}
+      </div>
+    </div>>
   </div>
 </template>
 <script lang="ts" setup>
