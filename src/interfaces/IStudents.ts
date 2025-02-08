@@ -1,5 +1,5 @@
 export interface IStudent {
   name: string
-  age: number
+  team: string
   email: string
 }
