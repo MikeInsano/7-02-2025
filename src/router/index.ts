@@ -43,6 +43,12 @@ const routes = [
     name: 'Not found',
     component: () => import('../views/404View.vue'),
   },
+  {
+    path: '/students',
+    name: 'students',
+    component: () => import('../views/StudentView.vue'),
+    meta: { menu: true, title: 'Estudiantes' },
+  },
 ]
 
 // Se crea el router con las rutas definidas
